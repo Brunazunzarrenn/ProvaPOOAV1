@@ -11,15 +11,15 @@ public class ProjetoSocial {
 		
 		switch (op) {
 			case "1":
-				DistribuicaoAlimento x = new DistribuicaoAlimento("alimentoPaulo", "qtdePaulo", "descricaoPaulo","enderecoPaulo", "iniciodataPaulo", "finaldataPaulo");
+				DistribuicaoAlimento x = new DistribuicaoAlimento("alimentoBruna", "qtdeBruna", "descricaoBruna","enderecoBruna", "iniciodataBruna", "finaldataBruna");
 				
-				x.validarProjeto("PauloDISTRIBUICAO_ALIMENTO");
+				x.validarProjeto("BrunaDISTRIBUICAO_ALIMENTO");
 				JOptionPane.showMessageDialog(null, x.imprimeProjeto());
 				
 				break;
 			case "2":
-				TrabalhoVoluntario y = new TrabalhoVoluntario("alimentoPaulo", 3, "descricaoPaulo","enderecoPaulo", "iniciodataPaulo", "finaldataPaulo");
-				y.validarProjeto("PauloTRABALHO_VOLUNTARIO");
+				TrabalhoVoluntario y = new TrabalhoVoluntario("alimentoBruna", 3, "descricaoBruna","enderecoBruna", "iniciodataBruna", "finaldataBruna");
+				y.validarProjeto("BrunaTRABALHO_VOLUNTARIO");
 				JOptionPane.showMessageDialog(null, y.imprimeProjeto());
 				break;
 			case "3":
